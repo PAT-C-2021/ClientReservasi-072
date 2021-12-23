@@ -107,5 +107,17 @@ namespace ClientReservasi_072
             btSimpan.Enabled = false;
             textBoxID.Enabled = false;  
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            new Login().Show();
+            this.Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            new Register().Show();
+            this.Hide();
+        }
     }
 }
